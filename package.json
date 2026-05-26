@@ -1,0 +1,23 @@
+{
+  "name": "stacklens-ai-spend-audit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A free AI spend audit app for startup founders and engineering managers.",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "node --test tests/*.test.js",
+    "lint": "node src/lint.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "ai-spend",
+    "audit",
+    "lead-generation",
+    "credex"
+  ],
+  "license": "MIT"
+}
